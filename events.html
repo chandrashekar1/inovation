@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from makermela.com/events.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Apr 2020 15:14:50 GMT -->
+<head>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.2.0/css/all.css">
+<link rel="stylesheet" href="../www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link rel="stylesheet" href="../i.icomoon.io/public/temp/fdfcfa0175/UntitledProject/style.html">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Events</title>
+<style type="text/css">
+img{
+	border-radius: 10px;
+}
+
+.hero-image {
+background-image: url("img/d1%20(2.html).jpg");
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-text {
+margin: auto;
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px;
+line-height: 1.6;
+text-align: center;
+width: 80%;
+padding-top: 100px;
+}
+.hero-text h1{
+font-size:36px;
+font-family:'Helvetica';
+}
+.overlay {
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	overflow: auto;
+	top: 0px;
+	left: 0px;
+	background: rgba(100, 0, 0, 0.7); /*can be anything, of course*/
+	display: flex;
+}
+.button {
+	border: none;
+	color: white;
+	padding: 11px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	margin: auto;
+	width: 60%;
+}
+.button5 {
+	background-color: white;
+	color: black;
+	font-size: 12px;
+	border-radius: 12px;
+	letter-spacing: 1px;
+}
+.button1 {
+background-color: #cc0000;
+color: white;
+border-radius: 12px;
+margin-top: 40px;
+transition: 0.1s ease-in;
+font-size: 15px;
+}
+.button5:hover {
+	padding: 18px 24px;
+	background-color: white;
+	color: #cc0000;
+	font-size: 15px;
+}
+.button1:hover {
+	background-color: #fff;
+	color: #cc0000;
+	border: 2px solid #cc0000;
+}
+
+.button2 {
+background-color: #fff;
+color: #cc0000;
+border-radius: 12px;
+margin-top: 40px;
+transition: 0.1s ease-in;
+font-size: 15px;
+text-transform: uppercase;
+}
+
+.button2:hover {
+	background-color: #3498db;
+	color: white;
+	font-size: 18px;
+}
+
+.button3 {
+background-color: #fff;
+color: #cc0000;
+border-radius: 12px;
+margin-top: 40px;
+transition: 0.1s ease-in;
+font-size: 15px;
+text-transform: uppercase;
+}
+
+.button3:hover {
+	background-color: #3498db;
+	color: white;
+	font-size: 12px;
+}
+.button101 {
+background-color: #00695c;
+color: white;
+border-radius: 12px;
+margin-top: 40px;
+transition: 0.1s ease-in;
+font-size: 15px;
+}
+.button101:hover {
+	background-color: #fff;
+	color: #00695c;
+	border: 2px solid #00695c;
+}
+
+@media only screen and (min-width: 860px) {
+.hero-text {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	line-height: 1.6;
+	text-align: center;
+	width: 50%;
+}
+.hero-text p{
+	font-size: 48px;
+}
+.hero-text h1{
+	font-size:72px;
+	font-family:'Proxima Nova';
+	font-weight: bold;
+}
+.button{
+	font-size: 18px;
+	width: 50%;
+}
+.button5:hover {
+		padding: 22px 40px;
+		font-size: 24px;
+}
+.button2:hover{
+		padding: 16px 30px;
+		font-size: 20px;
+}
+.button{
+	font-size: 15px;
+}
+.button3:hover{
+		padding: 16px 25px;
+		font-size: 20px;
+}
+}
+</style>
+
+<style type="text/css">
+		div.panel {
+		padding: 0 18px;
+		display: none;
+		background-color: white;
+		overflow: hidden;
+		}
+
+		div.panel.show {
+				display: block;
+		}
+		.accordion {
+				background-color: #fff;
+				color: #444;
+				cursor: pointer;
+				padding: 18px;
+				width: 100%;
+				border: none;
+				text-align: left;
+				outline: none;
+				font-size: 15px;
+				transition: 0.4s;
+				font-weight: bolder;
+		}
+		#faqs h1 {
+			text-align: center;
+			color: #fff;
+			font-size: 24px;
+			font-family:'Proxima Nova';
+			text-transform: uppercase;
+			width: 80%;
+			margin: auto;
+			margin-top: 50px;
+			letter-spacing: 1.25px;
+		}
+		.box{
+			padding: 10px;
+			width: 90%;
+			margin: auto;
+			margin-bottom: 30px;
+		}
+		.box_parent{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.active, .accordion:hover {
+				background-color: #eee;
+		}
+		.accordion:after {
+			content: '\002B';
+			color: #777;
+			font-weight: bold;
+			float: right;
+			margin-left: 5px;
+		}
+		.active:after {
+			content: "\2212";
+		}
+		#faqs{
+			min-height: 100vh;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+	@media only screen and (min-width: 660px) {
+		.box{
+			padding: 10px;
+			width: 40%;
+			margin: auto;
+			margin-bottom: 30px;
+		}
+		#faqs h1 {
+			font-size: 36px;
+			margin-bottom: 90px;
+		}
+	}
+</style>
+
+	<style type="text/css">
+		.iconBox p {
+			font-size: 17px;
+			text-transform: uppercase;
+			margin-top: 60px;
+		}
+		.iconBox:hover {
+			padding: 10px 10px;
+			cursor: pointer;
+		}
+		@media only screen and (min-width: 860px){
+			.iconBox {
+				height: 300px;
+				width: 30%;
+			}
+			.icon:hover {
+			padding: 10px 10px;
+			cursor: pointer;
+		}
+		}
+	</style>
+
+<style type="text/css">
+	.partnerBox > a > img{
+		max-height:  120px;
+		max-width: 250px;
+		margin: auto;
+	}.partnerBox > a {
+		display: flex;
+	}
+</style>
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<a href="index-2.html" class="logo-mm"><img src="img/mm-logo.png" style="border-radius: 0;"></a>
+		<a href="index-2.html" class="navtext" style="font-family: helvetica;">Home</a>
+		<a href="#khel" class="navtext" style="font-family: helvetica;">Khel Mela</a>
+		<a href="#art" class="navtext" style="font-family: helvetica;">Art Mela</a>
+		<a href="#makers" class="navtext" style="font-family: helvetica;">Makers' Night</a>
+		<a href="#bio" class="navtext" style="font-family: helvetica;">Bio Events</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+<!-- Section 1 -->
+<div class="hero-image">
+	<div class="overlay">
+  		<div class="hero-text">
+   	 		<h1 style="margin-bottom: 0px;">events</h1>
+   	 		<h3 style="margin-top: 0px;"> 17<sup>th</sup>-19<sup>th</sup> JAN 2019 </h3>
+				<p style="font-family: sans-serif; letter-spacing: 1px;"></p>
+  		</div>
+	</div>
+</div>
+<!-- Section 1 ended-->
+
+<!-- Khel mela starts -->
+<div id="khel">
+	<div id="rightleft">
+	  <div id="rlcontainer">
+	    <div class="rightText">
+	      <div class="rtcontainer">
+
+	        <h1> khel Mela </h1>
+
+	        <p>A culmination of Desi retro games with a twist. Event will have normal classic games alongside with 2 or 3 innovative games with twist to promote our team of maker. </p>
+	        <br>
+	        <p>
+	          <span style="font-size: 18px;">
+	            <i class="far fa-calendar-alt" style="color: #cc0000"></i>  Date: 18<sup>th</sup>-19<sup>th</sup> January 2019<br><br>
+	            <i class="far fa-map" style="color: #cc0000"></i>  Venue: Somaiya Vidyavihar<br><br>
+	            <i class="fas fa-money-bill-wave" style="color: #cc0000"></i>  Fees: Rs. 500<br>
+	          </span>
+	        </p>
+	      </div>
+	    </div>
+	    <div class="leftImage">
+	      <img src="img/k_m.jpg">
+	    </div>
+	  </div>
+	</div>
+</div>
+<div id="registerOverlay" style="background: url('img/k_m.jpg') no-repeat; background-position: center; background-attachment: fixed; background-size: cover;">
+	<div id="registerSection">
+  	<div id="registerContainer" style="background: rgb(255,255,255); padding-top: 40px;">
+  		<div id="registerTitle">
+  			<h1>Baseball Cricket</h1>
+  		</div>
+  		<div id="registerMethods" style="display: flex; max-width: 80%; margin: auto; flex-wrap: wrap; justify-content: space-around;">
+  			<div class="partnerBox">
+  				<img src="img/b_c.jpg">
+  			</div>
+  		</div>
+      <p class="methodTitle" style="margin: 0px 20px;">Cricket is itself a mind boggling game, What if we tell you there are 3 batsmen at the same time? Interesting?</p>
+      <p>Date: 18<sup>th</sup> January and 19<sup>th</sup> January</p>
+      <p>Time: 9am to 6pm</p>
+      <p>Venue: Cricket Ground, Somaiya Vidyavihar</p>
+      <p>Fees: Rs. 500</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMNkqt1rn1dmOjVnOKCBrucDYltby1ZykqAQoD4fROqE0Chw/viewform"><button class="button button1">REGISTER</button></a>
+		</div>
+    <div id="registerContainer" style="background: rgb(255,255,255); padding-top: 40px;">
+  		<div id="registerTitle">
+  			<h1>Human Foosball</h1>
+  		</div>
+  		<div id="registerMethods" style="display: flex; max-width: 80%; margin: auto; flex-wrap: wrap; justify-content: space-around;">
+  			<div class="partnerBox">
+  				<img src="img/hf.jpg">
+  			</div>
+      </div>
+      <p class="methodTitle" style="margin: 0px 20px;">Score a goal while your hands are at the pole. It's innovative, it's fun! Have an experience of a lifetime.</p>
+      <p>Date: 18<sup>th</sup> January and 19<sup>th</sup> January</p>
+      <p>Time: 9am onwards</p>
+      <p>Venue: Somaiya Vidyavihar</p>
+      <p>Fees: Free of cost</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMNkqt1rn1dmOjVnOKCBrucDYltby1ZykqAQoD4fROqE0Chw/viewform"><button class="button button1">REGISTER</button></a>
+    </div>
+	</div>
+</div>
+<!-- Khel mela ends -->
+
+<!-- Art mela starts -->
+<div id="art">
+	<div id="rightleft">
+	  <div id="rlcontainer">
+	    <div class="rightText">
+	      <div class="rtcontainer">
+	        <h1> art Mela </h1>
+	        <br>
+	        <p>
+	          <span style="font-size: 18px;">
+	            <i class="far fa-calendar-alt" style="color: #cc0000"></i>  Date: 17<sup>th</sup>-18<sup>th</sup> January 2019<br><br>
+	            <i class="far fa-map" style="color: #cc0000"></i>  Venue: Somaiya Vidyavihar<br><br>
+	            <i class="fas fa-money-bill-wave" style="color: #cc0000"></i>  FREE <br>
+	          </span>
+	        </p>
+	      </div>
+	    </div>
+	    <div class="leftImage">
+	      <img src="img/a_m.jpg">
+	    </div>
+	  </div>
+	</div>
+</div>
+<!-- Section rightleft ends -->
+
+<!-- Register Section -->
+<div id="registerOverlay" style="background: url('img/a_m.jpg') no-repeat; background-position: center; background-attachment: fixed; background-size: cover;">
+	<div id="registerSection">
+  	<div id="registerContainer" style="background: rgb(255,255,255); padding-top: 40px;">
+  		<div id="registerTitle">
+  			<h1>Junk Art</h1>
+  		</div>
+  		<div id="registerMethods" style="display: flex; max-width: 80%; margin: auto; flex-wrap: wrap; justify-content: space-around;">
+  			<div class="partnerBox">
+  				<img src="img/j_a.jpg">
+  			</div>
+  		</div>
+      <p class="methodTitle" style="margin: 0px 20px;">Students will be provided with a pile of junk and they will have to make something creative out of it. This event basically focuses on Waste Management and Recycling that eventually helps the environment.</p>
+      <p>Date: 18<sup>th</sup> January</p>
+      <p>Time: 11am onwards</p>
+      <p>Venue: Open Amphitheatre, Somaiya Vidyavihar</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdABm5QFydWRLYY-qn5XyiGf5na_S1MlYfXMcI6qeenL_2oew/viewform"><button class="button button1">REGISTER</button></a>
+		</div>
+    <div id="registerContainer" style="background: rgb(255,255,255); padding-top: 40px;">
+  		<div id="registerTitle">
+  			<h1>Canvas</h1>
+  		</div>
+  		<div id="registerMethods" style="display: flex; max-width: 80%; margin: auto; flex-wrap: wrap; justify-content: space-around;">
+  			<div class="partnerBox">
+  				<img src="img/canvas.jpg">
+  			</div>
+      </div>
+      <p class="methodTitle" style="margin: 0px 20px;">Each artist will be given a section of a continuous canvas. Materials will be provided, but also can be carried by the artist. There's no specific theme, the artist is free to paint whatever he/she desires to paint. </p>
+      <p>Date: 18<sup>th</sup> January</p>
+      <p>Time: After inauguration</p>
+      <p>Venue: Pathway till Maker Arena, Somaiya Vidyavihar</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdABm5QFydWRLYY-qn5XyiGf5na_S1MlYfXMcI6qeenL_2oew/viewform"><button class="button button1">REGISTER</button></a>
+    </div>
+	</div>
+</div>
+<!-- Art mela ends -->
+
+<!-- Makers night starts -->
+<div id="makers">
+	<div id="rightleft">
+	  <div id="rlcontainer">
+	    <div class="rightText">
+	      <div class="rtcontainer">
+	        <h1> Makers' Night </h1>
+	        <p>A "meet & greet" night for makers, a mellow evening where all the makers will have a small introductory session, interacting with each other, giving a small brief about their product/creation on the podium.</p>
+	        <br>
+	        <p>
+	          <span style="font-size: 18px;">
+	            <i class="far fa-calendar-alt" style="color: #cc0000"></i>  Date: 17<sup>th</sup> January 2019<br><br>
+	            <i class="far fa-map" style="color: #cc0000"></i>  Venue: Open Amphitheatre, Somaiya Vidyavihar<br><br>
+	            <i class="fas fa-clock" style="color: #cc0000"></i>  Time: 7pm onwards<br>
+	          </span>
+	        </p>
+	      </div>
+	    </div>
+	    <div class="leftImage">
+	      <img src="img/nfm.jpg">
+	    </div>
+	  </div>
+	</div>
+</div>
+<!-- Makers night ends -->
+
+<!-- Bio Starts -->
+<!-- Register Section -->
+<div id="bio">
+	<div id="registerOverlay" style="background: url('img/b_h.jpg') no-repeat; background-position: center; background-attachment: fixed; background-size: cover;">
+		<div id="registerSection" style="background: rgba(0,80,20,0.7);">
+	  	<div id="registerContainer" style="background: rgb(255,255,255); padding-top: 40px;">
+	  		<div id="registerTitle">
+	  			<h1 style="color: #00695c;">Bio Fashion</h1>
+	  		</div>
+	  		<div id="registerMethods" style="display: flex; max-width: 80%; margin: auto; flex-wrap: wrap; justify-content: space-around;">
+	  			<div class="partnerBox">
+	  				<img src="img/b_f.jpg">
+	  			</div>
+	  		</div>
+	      <p class="methodTitle" style="margin: 0px 20px;">A unique Fashion Show, where the contestants will have to make their own clothing using silk and cotton as base material, and then create and apply bio-polymers to make decorative / accessories, which will be the main attraction of the Fashion Show.</p>
+	      <p>Date: 18<sup>th</sup> January</p>
+	      <p>Time: 6pm onwards</p>
+	      <p>Venue: Somaiya Vidyavihar</p>
+	      <p>Fees: Rs. 1000</p>
+	      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJJYgrWoe-UU7qnG8OhAeeK6HpNbMtB1ATyx31-ecDL_40XA/viewform"><button class="button button101">REGISTER</button></a>
+			</div>
+	    <div id="registerContainer" style=" background: rgb(255,255,255); padding-top: 40px;">
+	  		<div id="registerTitle">
+	  			<h1 style="color: #00695c;">Bio Design</h1>
+	  		</div>
+	  		<div id="registerMethods" style="display: flex; max-width: 80%; margin: auto; flex-wrap: wrap; justify-content: space-around;">
+	  			<div class="partnerBox">
+	  				<img src="img/b_d.jpg">
+	  			</div>
+	  		</div>
+	      <p class="methodTitle" style="margin: 0px 20px;">In Bio-Design, a particular problem statement will be assigned to participants, on versatile Bio-Field topics, and the participants have to tackle the challenge through innovative solutions.</p>
+	      <p>Date: 19<sup>th</sup> January</p>
+	      <p>Time: 10am to 4pm</p>
+	      <p>Venue: Somaiya Vidyavihar</p>
+	      <p>Fees: Rs. 500</p>
+	      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJJYgrWoe-UU7qnG8OhAeeK6HpNbMtB1ATyx31-ecDL_40XA/viewform"><button class="button button101">REGISTER</button></a>
+		</div>
+	    
+		</div>
+	</div>
+</div>
+<!-- Bio ends -->
+
+<!-- Footer starts -->
+
+<div class="footer" style="background: #eee;">
+	<p style="color: #444;">Copyright &copy; Maker Mela</p>
+	<div class="footerIcons">
+		<a href="https://twitter.com/makermelaindia"><i class="fa fa-twitter" style="color: #444;"></i></a>
+		<a href="https://www.facebook.com/makermela/"><i class="fa fa-facebook" style="color: #444;"></i></a>
+		<a href="https://www.instagram.com/makermela/"><i class="fa fa-instagram" style="color: #444;"></i></a>
+	</div>
+	<p style="color: #444;">makerrelations2019@gmail.com</p>
+</div>
+
+<!-- Footer ends -->
+
+<script>
+function myFunction() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+			x.className += " responsive";
+			}
+	else {
+			x.className = "topnav";
+			}
+	}
+</script>
+
+
+<!-- Scroll reveal is used to reveal content after they enter the viewport-->
+ <script src="scrollreveal.min.js"></script>
+
+<script>
+
+	window.sr = ScrollReveal({reset: true });
+	window.sr = ScrollReveal({reset: true });
+</script>
+
+
+<script>
+
+	sr.reveal('#headText', {duration: 500, origin: 'bottom', scale: 0.5});
+	sr.reveal('.benefitBox', {duration: 500, origin: 'bottom', scale: 0.5});
+
+	sr.reveal('#speakerTitle', {duration: 500, origin: 'right', scale: 0.5});
+	sr.reveal('.speakerBox', {duration: 1000, origin: 'left', scale: 0.5});
+
+	sr.reveal('.single-column', {duration: 1000, origin: 'left', scale: 0.5});
+
+	sr.reveal('#faqs', {duration: 1000, origin: 'left', scale: 0.5});
+	sr.reveal('.accordion', {duration: 1000, origin: 'left', scale: 0.5});
+
+
+	sr.reveal('.maprscontainer', {duration: 500, origin: 'right', scale: 0.5});
+	sr.reveal('.mapLeftContainer', {duration: 1000, origin: 'left', scale: 0.5});
+
+	sr.reveal('#registerContainer', {duration: 500, origin: 'right', scale: 0.5});
+	sr.reveal('.methodBox', {duration: 1000, origin: 'left', scale: 0.5});
+
+	sr.reveal('#partnerTitle', {duration: 500, origin: 'right', scale: 0.5});
+	sr.reveal('.partnerBox', {duration: 1000, origin: 'left', scale: 0.5});
+
+	sr.reveal('#publicationsTitle', {duration: 500, origin: 'right', scale: 0.5});
+	sr.reveal('.publicationsBox', {duration: 1000, origin: 'left', scale: 0.5});
+</script>
+
+<script type="text/javascript">
+        var acc = document.getElementsByClassName("accordion");
+    var panel = document.getElementsByClassName('panel');
+
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].onclick = function() {
+            var setClasses = !this.classList.contains('active');
+            setClass(acc, 'active', 'remove');
+            setClass(panel, 'show', 'remove');
+            if (setClasses) {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+    }
+
+    function setClass(els, className, fnName) {
+        for (var i = 0; i < els.length; i++) {
+            els[i].classList[fnName](className);
+        }
+    }
+
+    </script>
+
+</body>
+
+<!-- Mirrored from makermela.com/events.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Apr 2020 15:16:47 GMT -->
+</html>
